@@ -51,7 +51,6 @@ export default function HeroFull() {
             <Button
               variant="outline"
               size="lg"
-              className="h-14 px-8 rounded-xl border-gray-300 text-gray-700 hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 active:scale-95"
             >
               Experience Nava <ArrowRight className="ml-2 w-4 h-4" />
             </Button>

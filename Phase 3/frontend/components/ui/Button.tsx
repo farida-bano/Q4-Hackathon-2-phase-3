@@ -12,7 +12,7 @@ import { cn } from '@/lib/utils';
  * Button variant types
  * Each variant has specific colors for light/dark themes
  */
-export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
+export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'outline';
 
 /**
  * Button size types
@@ -65,6 +65,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       // Ghost variant - transparent with hover background
       ghost:
         'bg-transparent text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700',
+      // Outline variant - border with transparent background
+      outline:
+        'border border-gray-300 bg-transparent text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700',
       // Danger variant - red for destructive actions
       danger:
         'bg-red-500 text-white shadow-md hover:bg-red-600 hover:shadow-lg active:bg-red-700',

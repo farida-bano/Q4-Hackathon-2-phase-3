@@ -50,7 +50,6 @@ export default function Hero({ userName = 'User', pending = 0, onPrimaryAction }
               variant="outline"
               size="md"
               onClick={() => window.scrollTo({ top: 800, behavior: 'smooth' })}
-              className="h-10 rounded-lg border-gray-300 text-gray-700 hover:bg-gray-50 transition-all duration-300"
             >
               <TrendingUp className="w-4 h-4 mr-2" />
               View Tasks
